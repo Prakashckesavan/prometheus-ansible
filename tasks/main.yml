@@ -29,7 +29,7 @@
    validate_certs: False
 
 - name: create user prometheus
-  shell: useradd --no-create-home --shell /bin/false node_exporter 
+  shell: useradd --no-create-home --shell /bin/false prometheus 
 
 - name: create user node_exporter
   shell: useradd --no-create-home --shell /bin/false node_exporter
